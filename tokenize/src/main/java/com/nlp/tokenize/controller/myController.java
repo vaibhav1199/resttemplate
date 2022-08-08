@@ -50,7 +50,7 @@ public class myController {
 			}
 		}
 		List<String> info = name(coreLabels, type);
-		if(userinfo!="vaibhav") {
+		if(userinfo.equals("vaibhav")) {
 			userinfo = info.get(0);
 		}
 		String url=task+userinfo;
